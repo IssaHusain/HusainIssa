@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7349326106930964359}
   - component: {fileID: 4642040538980612620}
   - component: {fileID: 2009812431334717158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375141861349809307}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -127,13 +127,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.3
-    - _ShadowOffsetScale: 1
-    - _ShadowStrength: 0.8
+    - _Cutoff: 0
+    - _ShadowOffsetScale: 2
+    - _ShadowStrength: 1
     - _SquashAmount: 1
-    - _TranslucencyViewDependency: 0.7
+    - _TranslucencyViewDependency: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.2627451, g: 0.09803922, b: 0.6784314, a: 1}
     - _TranslucencyColor: {r: 0.33333334, g: 0.8784314, b: 0.03529412, a: 0.9254902}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
@@ -1196,7 +1196,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -1204,7 +1204,7 @@ Material:
     m_TexEnvs:
     - _BumpSpecMap:
         m_Texture: {fileID: 2800000, guid: 3811edd71296b7a4ab608ef70ad31588, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: ead5bcd1dfbb4754aa922310d14f755c, type: 3}
@@ -1218,7 +1218,7 @@ Material:
     - _Cutoff: 0.3
     - _SquashAmount: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.6981132, g: 0.09659421, b: 0.12411465, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
