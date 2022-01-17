@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
+    
     public CharacterController controller;
     
     public float speed = 12f;
@@ -46,5 +47,7 @@ public class movement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+        
+
     }
 }
